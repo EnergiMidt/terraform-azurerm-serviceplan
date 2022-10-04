@@ -1,6 +1,5 @@
 locals {
-  # name = "${var.name}${var.environment}"
-  name     = var.override_name == null ? var.name : var.override_name
+  name     = var.override_name == null ? "${var.system_name}-${lower(var.environment)}-plan" : var.override_name
   location = var.override_location == null ? var.resource_group.location : var.override_location
 }
 
