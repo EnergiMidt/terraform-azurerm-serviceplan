@@ -67,7 +67,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_azurerm_service_plan"></a> [azurerm\_service\_plan](#output\_azurerm\_service\_plan) | The Azure App Service's Service Plan' resource. |
+| <a name="output_azurerm_service_plan"></a> [azurerm\_service\_plan](#output\_azurerm\_service\_plan) | The Azure App Service's Service Plan resource. |
 <!-- END_TF_DOCS -->
 
 [1]: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/service_plan
